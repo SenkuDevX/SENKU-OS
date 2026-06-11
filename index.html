@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senku OS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-color: #c9ffcf; font-family: 'Orbitron'; color: #000000; text-align: center; padding: 20px;background-image: url('1345298.png'); background-size: cover;">
+
+    <div style="border: solid;border-radius: 16px;position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);padding: 16px;background-color:#c9ffcf;">
+      <h1 style="margin: 10px;">INITIALIZING BACKEND PROCESS.... </h1>
+  <h2>Welcome To
+  </h2>
+  <h1 style="margin: 10px; font-family: 'Bitcount Single'; font-size: 50px; letter-spacing: 5px;">SENKU OS</h1>
+  <p>This is a website that i built for stardance! Yes this is my own OS or shall i say WebOS known as <strong>Senku OS</strong>!</p>
+<img src="TuRou (@Tu_Rouu) on X.png" style="width: 256px; height: 256px; border-radius: 256px; object-fit: cover">
+    </div>
+    <div style="
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 48px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(20,20,20,0.8);
+
+    border-top: 2px solid #A8E63A;
+
+    color: white;
+
+    z-index: 9999;
+">
+    
+    <div style="
+        display: flex;
+        align-items: center;
+        height: 100%;
+    ">
+
+        <div style="
+            width: 60px;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: rgba(168,230,58,0.15);
+
+            border-right: 1px solid rgba(255,255,255,0.1);
+
+            cursor: pointer;
+            font-size: 24px;
+        ">
+            🔬
+        </div>
+
+        <div style="
+            width: 52px;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-right: 1px solid rgba(255,255,255,0.08);
+        ">
+            🌐
+        </div>
+
+        <div style="
+            width: 52px;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border-right: 1px solid rgba(255,255,255,0.08);
+        ">
+            📁
+        </div>
+<div style="width: 52px;height: 100%;display: flex; justify-content: center; align-items: center;border-right: 1px solid rgba(255,255,255,0.08);">            ⚗️</div>
+</div>
+<div style="padding-right: 16px; text-align: center; font-size: 13px;">
+    <div id="timeElement"></div>
+    <div id="dateElement"></div>
+</div></div>
+
+</div>
+<script>
+function updateTime() {
+  var now = new Date();
+
+  document.getElementById("timeElement").innerHTML = now.toLocaleTimeString();
+  document.getElementById("dateElement").innerHTML = now.toLocaleDateString();
+}
+
+updateTime();
+setInterval(updateTime, 1000);
+</script>
+</body>
+</html>
