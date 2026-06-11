@@ -1,0 +1,90 @@
+.window {
+  position: fixed;
+  width: 520px;
+  max-width: calc(100vw - 32px);
+  box-sizing: border-box;
+
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 16px;
+
+  background: rgba(201,255,207,0.95);
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 0 20px rgba(168,230,58,0.3),
+    0 0 50px rgba(168,230,58,0.15);
+
+  user-select: none;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.windowheader {
+  flex-shrink: 0;
+
+  height: 32px;
+
+  background: #2a2a2a;
+  color: white;
+
+  border-radius: 16px 16px 0 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 12px;
+
+  user-select: none;
+  position: relative;
+  z-index: 2;
+}
+
+.closebutton {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #ff5f57;
+    cursor: pointer;
+}
+#season1:hover,
+#season2:hover,
+#season25:hover,
+#season3:hover,
+#season4:hover {
+
+    background:#d8ff8b;
+
+    transition:0.2s;
+
+}
+#drstone {
+  display: flex;
+  flex-direction: column;
+}
+.window {
+  opacity: 0;
+  transform: scale(0.95);
+  animation: windowOpen 0.25s ease forwards;
+}
+
+@keyframes windowOpen {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.dragging-window {
+  cursor: grabbing;
+  transform: scale(1.01);
+}
+.window:hover {
+  box-shadow:
+    0 15px 40px rgba(0,0,0,0.25),
+    0 0 30px rgba(168,230,58,0.25);
+  transition: 0.2s ease;
+}

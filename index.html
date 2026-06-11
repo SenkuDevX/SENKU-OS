@@ -5,17 +5,325 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senku OS</title>
     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
   </head>
   <body style="background-color: #c9ffcf; font-family: 'Orbitron'; color: #000000; text-align: center; padding: 20px;background-image: url('1345298.png'); background-size: cover;">
 
-    <div style="border: solid;border-radius: 16px;position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);padding: 16px;background-color:#c9ffcf;">
-      <h1 style="margin: 10px;">INITIALIZING BACKEND PROCESS.... </h1>
-  <h2>Welcome To
-  </h2>
-  <h1 style="margin: 10px; font-family: 'Bitcount Single'; font-size: 50px; letter-spacing: 5px;">SENKU OS</h1>
-  <p>This is a website that i built for stardance! Yes this is my own OS or shall i say WebOS known as <strong>Senku OS</strong>!</p>
-<img src="TuRou (@Tu_Rouu) on X.png" style="width: 256px; height: 256px; border-radius: 256px; object-fit: cover">
+<div class="window" id="welcome" style="top:120px; left:120px;">
+<div class="windowheader" id="welcomeheader">
+    <span>SENKU OS</span>
+
+ <div class="closebutton" id="welcomeclose">
     </div>
+</div>
+
+    <h1 style="margin: 10px;">HELLO!!</h1>
+    <h2>Welcome To</h2>
+    <h1 style="margin: 10px; font-family: 'Bitcount Single'; font-size: 50px; letter-spacing: 5px;">SENKU OS</h1>
+    <p>This is a website that i built for stardance! Yes this is my own OS or shall i say WebOS known as <strong>Senku OS</strong>!</p>
+    <img src="TuRou (@Tu_Rouu) on X.png" style="width: 256px; height: 256px; border-radius: 256px; object-fit: cover">
+</div>
+<div class="window"
+id="science"
+style="
+top:200px;
+left:200px;
+display:none;
+">
+
+<div class="windowheader"
+id="scienceheader">
+
+<span>SCIENCE LOGS</span>
+
+<div class="closebutton"
+id="scienceclose">
+</div>
+
+</div>
+
+<h2>Science Logs</h2>
+
+<p>
+Welcome to Senku's laboratory.
+</p>
+
+<h3>Revival Fluid</h3>
+
+<p>
+Nitric Acid + Alcohol
+=
+Stone people become people.
+Probably.
+</p>
+
+<h3>Steam Engine</h3>
+
+<p>
+Steam engine go brrrrrrr
+</p>
+
+</div>
+<div
+class="window"
+id="drstone"
+style="
+
+top: 200px;
+left:200px;
+display:none;
+width:900px;
+height:750px;
+overflow-y:auto;
+max-width:90vw;
+">
+<div class="windowheader" id="drstoneheader">
+
+    <span>DR.STONE</span>
+
+    <div style="display:flex; gap:8px;">
+
+        <div
+        id="drstonefullscreen"
+        style="
+        width:16px;
+        height:16px;
+        border-radius:50%;
+        background:#28c840;
+        cursor:pointer;
+        ">
+        </div>
+
+        <div
+        class="closebutton"
+        id="drstoneclose">
+        </div>
+
+    </div>
+
+</div>
+<div class="windowcontent">
+<h2>📋 Dr.Stone Videos!</h2>
+
+<div style="
+position:relative;
+height:300px;
+border-radius:16px;
+overflow:hidden;
+margin-bottom:20px;
+background-image:url('105333-KWKGvBM8Hyga.jpg');
+background-size:cover;
+background-position:center;
+">
+
+<div style="
+position:absolute;
+inset:0;
+background:linear-gradient(
+to bottom,
+rgba(0,0,0,0.3),
+rgba(0,0,0,0.7)
+);
+"></div>
+
+<div style="
+position:relative;
+z-index:2;
+height:100%;
+
+display:flex;
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+color:white;
+padding:20px;
+">
+
+<h1 style="
+letter-spacing: 4px;
+margin:0;
+font-size:72px;
+font-family:'Bitcount Single';
+text-shadow:
+0 0 10px rgba(0,0,0,0.8),
+0 0 25px rgba(0,0,0,0.8);
+">
+Dr. Stone
+</h1>
+
+<p style="
+margin-top:16px;
+font-size:20px;
+font-weight:bold;
+text-shadow:
+0 0 8px rgba(0,0,0,0.8);
+">
+Watch every Dr.Stone episode!
+</p>
+
+<p style="
+margin-top:6px;
+font-size:16px;
+opacity:0.95;
+text-shadow:
+0 0 8px rgba(0,0,0,0.8);
+">
+(Watch it, It's seriously good!)
+</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<h3>Player</h3>
+
+<div
+id="playerBox"
+style="
+background:#101010;
+color:white;
+border-radius:12px;
+padding:16px;
+min-height:350px;
+display:flex;
+justify-content:center;
+align-items:center;
+">
+
+Select an episode.
+
+</div>
+<hr>
+
+<div style="
+display:flex;
+gap:16px;
+">
+
+    <div style="
+    width:180px;
+    border-right:1px solid #ccc;
+    ">
+
+        <h3>Seasons</h3>
+
+<p id="season1"style="
+cursor:pointer;
+padding:8px;
+border-radius:8px;
+">Dr. STONE</p>
+<p id="season2"style="
+cursor:pointer;
+padding:8px;
+border-radius:8px;
+">Stone Wars</p>
+<p id="season25"
+style="
+cursor:pointer;
+padding:8px;
+border-radius:8px;
+">
+Ryusui Special
+</p>
+
+<p id="season3"
+style="
+cursor:pointer;
+padding:8px;
+border-radius:8px;
+">
+New World
+</p>
+<p id="season4"
+style="
+cursor:pointer;
+padding:8px;
+border-radius:8px;
+">
+Science Future
+</p>
+
+    </div>
+
+    <div style="
+    flex:1;
+    ">
+
+        <h3>Episodes</h3>
+<input
+id="episodeSearch"
+placeholder="Search episode..."
+style="
+width:100%;
+padding:8px;
+margin-bottom:12px;
+">
+   <div id="episodeList"></div>
+
+    </div>
+
+</div>
+
+<div
+id="episodeList"
+style="
+max-height:350px;
+overflow-y:auto;
+padding-right:8px;
+">
+
+</div>
+</div>
+</div>
+    <div id="desktopApps">
+
+  <div id="scienceApp"
+style="
+padding:16px;
+width:fit-content;
+cursor:pointer;
+color:rgb(230, 230, 230);
+text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+text-align:center;
+">
+
+        <img
+        src="atom-logo.png"
+        style="
+        width:64px;
+        height:64px;
+        border-radius:16px;
+        ">
+
+        <p><strong>Science Logs</strong></p>
+
+    </div>
+<div id="drstoneIcon" style="
+padding:16px;
+width:fit-content;
+cursor:pointer;
+color:rgb(230, 230, 230);
+text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+text-align:center;">
+
+    <img
+    src="beaker.png"
+    style="
+    width:64px;
+    height:64px;
+    border-radius:16px;
+    ">
+
+    <p>Dr.Stone Videos!</p>
+
+</div>
+</div>
     <div style="
     position: fixed;
     bottom: 0;
@@ -74,7 +382,7 @@
             🌐
         </div>
 
-        <div style="
+        <div id="welcomeopen" style="
             width: 52px;
             height: 100%;
 
@@ -105,5 +413,7 @@ function updateTime() {
 updateTime();
 setInterval(updateTime, 1000);
 </script>
+ <script src="script.js"></script>
+
 </body>
 </html>
