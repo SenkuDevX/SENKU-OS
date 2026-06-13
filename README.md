@@ -64,6 +64,6 @@ SENKU OS is a browser-based desktop environment that i built entirely with HTML,
 
 *Made with 10 billion percent of my brain power.*
 
-> **Note:** AI was used for bug solving and understanding my own code — all logic, design, and ideas are my own.
+> **Note:** AI was used for bug solving, README and understanding my own code — all logic, design, and ideas are my own.
 
 </div>
