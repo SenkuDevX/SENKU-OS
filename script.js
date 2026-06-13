@@ -188,7 +188,7 @@ async function fetchEpisodes(season) {
     { number: 20, title: "The Age of Energy",url: "https://megaplay.buzz/stream/mal/38691/20/sub" },
     { number: 21, title: "Spartan Crafts Club",url: "https://megaplay.buzz/stream/mal/38691/21/sub" },
     { number: 22, title: "The Treasure",url: "https://megaplay.buzz/stream/mal/38691/22/sub" },
-    { number: 23, title: "Wave of Science",url: "https://megaplay.buzz/stream/mal/38691/23/sub3" },
+    { number: 23, title: "Wave of Science",url: "https://megaplay.buzz/stream/mal/38691/23/sub" },
     { number: 24, title: "Voices Over Infinite Distance",url: "https://megaplay.buzz/stream/mal/38691/24/sub" }
 ];
 
@@ -227,28 +227,28 @@ if (season == 25) {
     if (season == 3) {
 
         return [
-    { number: 1, title: "New World Map",url: "https://www.youtube.com/embed/abc123" },
-    { number: 2, title: "Greed Equals Justice",url: "https://www.youtube.com/embed/abc123" },
-    { number: 3, title: "First Contact",url: "https://www.youtube.com/embed/abc123" },
-    { number: 4, title: "Eyes of Science",url: "https://www.youtube.com/embed/abc123" },
-    { number: 5, title: "Science Vessel Perseus",url: "https://www.youtube.com/embed/abc123" },
-    { number: 6, title: "Treasure Box",url: "https://www.youtube.com/embed/abc123" },
-    { number: 7, title: "Ray of Despair, Ray of Hope",url: "https://www.youtube.com/embed/abc123" },
-    { number: 8, title: "The Trump Card Aboard the Vessel of Science",url: "https://www.youtube.com/embed/abc123" },
-    { number: 9, title: "Beautiful Science",url: "https://www.youtube.com/embed/abc123" },
-    { number: 10, title: "Science Wars",url: "https://www.youtube.com/embed/abc123" },
-    { number: 11, title: "With This Fist, a Miracle",url: "https://www.youtube.com/embed/abc123" },
-    { number: 12, title: "The Kingdom of Science Strikes Back",url: "https://www.youtube.com/embed/abc123" },
-    { number: 13, title: "The Medusa's True Face",url: "https://www.youtube.com/embed/abc123" },
-    { number: 14, title: "Deal Game, Test of Wit",url: "https://www.youtube.com/embed/abc123" },
-    { number: 15, title: "Battle in Three Dimensions",url: "https://www.youtube.com/embed/abc123" },
-    { number: 16, title: "Total War",url: "https://www.youtube.com/embed/abc123" },
-    { number: 17, title: "Joker",url: "https://www.youtube.com/embed/abc123" },
-    { number: 18, title: "Flicker of Doom",url: "https://www.youtube.com/embed/abc123" },
-    { number: 19, title: "Last Man Standing",url: "https://www.youtube.com/embed/abc123" },
-    { number: 20, title: "First Dream",url: "https://www.youtube.com/embed/abc123" },
-    { number: 21, title: "Treasure Island",url: "https://www.youtube.com/embed/abc123" },
-    { number: 22, title: "Beyond the New World",url: "https://www.youtube.com/embed/abc123" }
+    { number: 1, title: "New World Map",url: "https://megaplay.buzz/stream/mal/48549/1/sub"},
+    { number: 2, title: "Greed Equals Justice",url: "https://megaplay.buzz/stream/mal/48549/2/sub" },
+    { number: 3, title: "First Contact",url: "https://megaplay.buzz/stream/mal/48549/3/sub" },
+    { number: 4, title: "Eyes of Science",url: "https://megaplay.buzz/stream/mal/48549/4/sub" },
+    { number: 5, title: "Science Vessel Perseus",url: "https://megaplay.buzz/stream/mal/48549/5/sub" },
+    { number: 6, title: "Treasure Box",url: "https://megaplay.buzz/stream/mal/48549/6/sub" },
+    { number: 7, title: "Ray of Despair, Ray of Hope",url: "https://megaplay.buzz/stream/mal/48549/7/sub" },
+    { number: 8, title: "The Trump Card Aboard the Vessel of Science",url: "https://megaplay.buzz/stream/mal/48549/8/sub" },
+    { number: 9, title: "Beautiful Science",url: "https://megaplay.buzz/stream/mal/48549/9/sub" },
+    { number: 10, title: "Science Wars",url: "https://megaplay.buzz/stream/mal/48549/10/sub" },
+    { number: 11, title: "With This Fist, a Miracle",url: "https://megaplay.buzz/stream/mal/48549/11/sub" },
+    { number: 12, title: "The Kingdom of Science Strikes Back",url: "https://megaplay.buzz/stream/mal/55644/1/sub" },
+    { number: 13, title: "The Medusa's True Face",url: "https://megaplay.buzz/stream/mal/55644/2/sub" },
+    { number: 14, title: "Deal Game, Test of Wit",url: "https://megaplay.buzz/stream/mal/55644/3/sub" },
+    { number: 15, title: "Battle in Three Dimensions",url: "https://megaplay.buzz/stream/mal/55644/4/sub" },
+    { number: 16, title: "Total War",url: "https://megaplay.buzz/stream/mal/55644/5/sub" },
+    { number: 17, title: "Joker",url: "https://megaplay.buzz/stream/mal/55644/6/sub" },
+    { number: 18, title: "Flicker of Doom",url: "https://megaplay.buzz/stream/mal/55644/7/sub" },
+    { number: 19, title: "Last Man Standing",url: "https://megaplay.buzz/stream/mal/55644/8/sub" },
+    { number: 20, title: "First Dream",url: "https://megaplay.buzz/stream/mal/55644/9/sub" },
+    { number: 21, title: "Treasure Island",url: "https://megaplay.buzz/stream/mal/55644/10/sub" },
+    { number: 22, title: "Beyond the New World",url: "https://megaplay.buzz/stream/mal/55644/11/sub" }
         ];
 
     }
@@ -262,7 +262,7 @@ if (season == 25) {
     { number: 4, title: "Dr. X",url: "https://megaplay.buzz/stream/mal/57592/4/sub" },
     { number: 5, title: "DOCTOR VS. DOCTOR",url: "https://megaplay.buzz/stream/mal/57592/5/sub" },
     { number: 6, title: "SCIENCE IS ELEGANT",url: "https://megaplay.buzz/stream/mal/57592/6/sub" },
-    { number: 7, title: "The Two Scientists",url: "https://megaplay.buzz/stream/mal/57592/7/dub" },
+    { number: 7, title: "The Two Scientists",url: "https://megaplay.buzz/stream/mal/57592/7/sub" },
     { number: 8, title: "LOCK ON",url: "https://megaplay.buzz/stream/mal/57592/8/sub" },
     { number: 9, title: "Light of Science",url: "https://megaplay.buzz/stream/mal/57592/9/sub" },
     { number: 10, title: "Dirty Roads",url: "https://megaplay.buzz/stream/mal/57592/10/sub" },
@@ -274,7 +274,7 @@ if (season == 25) {
     { number: 16, title: "MEDUSA MECHANISM",url: "https://megaplay.buzz/stream/mal/61322/4/sub" },
     { number: 17, title: "Sickening Yet Beautiful",url: "https://megaplay.buzz/stream/mal/61322/5/sub" },
     { number: 18, title: "DIAMOND HEART",url: "https://megaplay.buzz/stream/mal/61322/6/sub" },
-    { number: 19, title: "STONE SANCTUARY",url: "http://localhost:5173/watch/189117?ep=189117%3A7" },
+    { number: 19, title: "STONE SANCTUARY",url: "https://megaplay.buzz/stream/mal/61322/7/sub"},
     { number: 20, title: "What I Once Sought to Destroy",url: "https://megaplay.buzz/stream/mal/61322/8/sub" },
     { number: 21, title: "OUR Dr. STONE",url: "https://megaplay.buzz/stream/mal/61322/9/sub" },
     { number: 22, title: "Until We Meet Again",url: "https://megaplay.buzz/stream/mal/61322/10/sub" },
@@ -286,13 +286,13 @@ if (season == 25) {
     { number: 28, title: "Dawn of the Computer",url: "https://megaplay.buzz/stream/mal/62568/4/sub" },
     { number: 29, title: "The Truth About the Rocket",url: "https://megaplay.buzz/stream/mal/62568/5/sub" },
     { number: 30, title: "STONE TO SPACE",url: "https://megaplay.buzz/stream/mal/62568/6/sub" },
-    { number: 31, title: "UNKNOWN KNOWN",url: "https://megaplay.buzz/stream/mal/62568/7/sub3" },
-    { number: 32, title: "Challengers of Science",url: "https://megaplay.buzz/stream/mal/62568/8/sub3" },
+    { number: 31, title: "UNKNOWN KNOWN",url: "https://megaplay.buzz/stream/mal/62568/7/sub" },
+    { number: 32, title: "Challengers of Science",url: "https://megaplay.buzz/stream/mal/62568/8/sub" },
     { number: 33, title: "Wanting Everything",url: "https://megaplay.buzz/stream/mal/62568/9/sub" },
     { number: 34, title: "COUNTDOWN",url: "https://megaplay.buzz/stream/mal/62568/10/sub" },
-    { number: 35, title: "GIANT STEP",url: "https://www.youtube.com/embed/abc123" },
-    { number: 36, title: "Episode 36",url: "https://www.youtube.com/embed/abc123" }, 
-    { number: 37, title: "Episode 37",url: "https://www.youtube.com/embed/abc123" }  
+    { number: 35, title: "GIANT STEP",url: "https://megaplay.buzz/stream/mal/62568/11/sub" },
+    { number: 36, title: "Episode 36",url: "https://megaplay.buzz/stream/mal/62568/12/sub" }, 
+    { number: 37, title: "Episode 37",url: "https://megaplay.buzz/stream/mal/62568/13/sub" }  
         ];
 
     }
